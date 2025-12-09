@@ -1,5 +1,22 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
+@import 'tw-animate-css';
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+
+* {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-bluescr-50: #ebf3ff;
+  --color-bluescr-100: #79afff;
+  --color-bluescr-200: #5f9fff;
+  --color-bluescr-300: #3787ff;
+  --color-bluescr-400: #327be8;
+  --color-bluescr-500: #2760b5;
+  --color-bluescr-accent: #003a90;
+}
 
 @custom-variant dark (&:is(.dark *));
 
