@@ -29,7 +29,7 @@ export default function NavMenu({ isOpen }: { isOpen: boolean }) {
               key={link.href}
               href={link.href}
               className={`text-center font-medium hover:text-bluescr-accent ${
-                isActive ? 'text-bluescr-accent' : 'text-bluescr-300'
+                isActive ? 'text-bluescr-accent' : 'text-black'
               }`}
             >
               {link.label}
@@ -53,7 +53,7 @@ export default function NavMenu({ isOpen }: { isOpen: boolean }) {
                 key={link.href}
                 href={link.href}
                 className={`text-center font-medium hover:text-bluescr-accent ${
-                  isActive ? 'text-bluescr-accent' : 'text-bluescr-300'
+                  isActive ? 'text-bluescr-accent' : 'text-black'
                 }`}
               >
                 {link.label}

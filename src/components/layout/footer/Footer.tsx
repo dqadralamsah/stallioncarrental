@@ -3,15 +3,14 @@ import Image from 'next/image';
 import { FiPhone } from 'react-icons/fi';
 import { MdOutlineEmail } from 'react-icons/md';
 import { CiLocationOn } from 'react-icons/ci';
-import { LuMapPin } from 'react-icons/lu';
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
 import { AiOutlineYoutube } from 'react-icons/ai';
 
 export default function Footer() {
   return (
-    <div className="p-4 bg-blue-950 space-y-4 lg:px-8">
+    <div className="p-4 bg-blue-950 space-y-8 lg:px-8">
       {/* Footer Main */}
-      <div className="flex flex-wrap items-start gap-4 text-white lg:gap-16">
+      <div className="flex flex-col md:flex-row md:flex-wrap gap-4 text-white lg:gap-8">
         {/* Information */}
         <div className="w-full lg:max-w-100 xl:max-w-125 space-y-4">
           {/* Logo */}
@@ -40,27 +39,29 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Company */}
-        <div className="flex-1 w-full">
-          <h3 className="font-semibold mb-4">Quick Links</h3>
-          <div className="flex flex-col text-sm space-y-4">
-            <Link href={'/pages/About'}>About Us</Link>
-            <Link href={'/pages/Cars'}>Cars</Link>
-            <Link href={'/pages/Articles'}>Articles</Link>
+        <div className="flex w-full gap-8 lg:flex-1">
+          {/* Company */}
+          <div className="w-full">
+            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <div className="flex flex-col text-sm space-y-4">
+              <Link href={'/pages/About'}>About Us</Link>
+              <Link href={'/pages/Cars'}>Cars</Link>
+              <Link href={'/pages/Articles'}>Articles</Link>
+            </div>
           </div>
-        </div>
 
-        {/* Support */}
-        <div className="flex-1 w-full">
-          <h3 className="font-semibold mb-4">Support</h3>
-          <div className="flex flex-col text-sm space-y-4">
-            <Link href={'/pages/Contact'}>Contact Us</Link>
-            <Link href={'/pages/FAQ'}>FAQs</Link>
+          {/* Support */}
+          <div className="w-full">
+            <h3 className="font-semibold mb-4">Support</h3>
+            <div className="flex flex-col text-sm space-y-4">
+              <Link href={'/pages/Contact'}>Contact Us</Link>
+              <Link href={'/pages/FAQ'}>FAQs</Link>
+            </div>
           </div>
         </div>
 
         {/* Follow */}
-        <div className="flex-1 items-start justify-center w-full text-center">
+        <div className="w-full text-center lg:w-auto">
           <h3 className="font-semibold mb-4">Follow Us</h3>
           <div className="flex items-center justify-center gap-4">
             <div className="flex items-center justify-center w-12 h-12 border-2 border-white rounded-full bg-bluescr-accent">
@@ -77,12 +78,12 @@ export default function Footer() {
       </div>
 
       {/* Footer Copyright */}
-      <div className="flex items-senter justify-between text-white">
-        <p className="text-sm">© {new Date().getFullYear()} SCARR.</p>
-        <div className="flex items-center justify-center gap-4 text-sm">
+      <div className="flex flex-col gap-4 items-senter justify-between text-white md:flex-row md:gap-0">
+        <div className="flex items-center justify-between gap-4 text-sm lg:justify-center">
           <Link href={'/'}>Terms & Conditions</Link>
           <Link href={'/'}>Privacy Police</Link>
         </div>
+        <p className="text-sm text-center">© {new Date().getFullYear()} SCARR.</p>
       </div>
     </div>
   );
