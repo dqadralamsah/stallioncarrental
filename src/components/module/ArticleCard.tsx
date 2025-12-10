@@ -13,34 +13,30 @@ export default function ArticleCard({ data }: ArticleProps) {
 
   return (
     <>
-      <div className="w-fit space-y-2">
+      <div className="w-fit max-w-100 space-y-2">
         {/* Image */}
-        <div className="rounded-2xl overflow-hidden">
+        <div className="w-full rounded-2xl overflow-hidden bg-blue-50">
           <Image
-            src={'/image/cars/Innova-Zenix.png'}
+            src="/image/cars/Innova-Zenix.png"
             width={400}
             height={0}
             alt="Toyota-New-Kijang-Innova-Zenix"
-            className="bg-blue-50 transition-all duration-300 group-hover:scale-105"
+            className="object-contain transition-all duration-300 group-hover:scale-105"
           />
         </div>
 
         {/* Date */}
-        <div>
-          <p className="text-sm">{date}</p>
-        </div>
+        <p className="text-sm">{date}</p>
 
-        <div>
-          <h1 className="font-bold line-clamp-2">{title})</h1>
-        </div>
-        <div>
-          <h1 className="text-sm line-clamp-5">{excerpt}</h1>
-        </div>
-        <div>
-          <Link href={'/'} className="text-sm font-bold">
-            SEE DETAIL
-          </Link>
-        </div>
+        {/* Title */}
+        <h1 className="font-bold line-clamp-2">{title}</h1>
+
+        {/* Excerpt */}
+        <p className="text-sm line-clamp-5">{excerpt}</p>
+
+        <Link href="/" className="text-sm font-bold">
+          SEE DETAIL
+        </Link>
       </div>
     </>
   );
