@@ -16,7 +16,7 @@ export default function Home() {
   const articles = getAllArticles().slice(0, 3);
 
   return (
-    <div className="mt-16 space-y-8">
+    <div className="space-y-8">
       {/* Hero Section */}
       <section className="px-4 lg:px-8">
         <div className="bg-gray-300 w-full h-150 rounded-lg"></div>

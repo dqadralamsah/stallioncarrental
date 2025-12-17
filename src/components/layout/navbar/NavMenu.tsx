@@ -7,11 +7,11 @@ import { Button } from '@/components/ui/button';
 
 const menuLinks = [
   { href: '/', label: 'Home' },
-  { href: '/pages/About', label: 'About Us' },
-  { href: '/pages/Armada', label: 'Cars' },
-  { href: '/pages/Article', label: 'Articles' },
-  { href: '/pages/Contact', label: 'Contact Us' },
-  { href: '/pages/FAQ', label: 'FAQs' },
+  { href: '/About', label: 'About Us' },
+  { href: '/Cars', label: 'Cars' },
+  { href: '/Article', label: 'Articles' },
+  { href: '/Contact', label: 'Contact Us' },
+  { href: '/FAQ', label: 'FAQs' },
 ];
 
 export default function NavMenu({ isOpen }: { isOpen: boolean }) {

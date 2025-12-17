@@ -4,6 +4,7 @@ export const cars: Car[] = [
   {
     id: 'car-001',
     name: 'Xenia New',
+    bodytype: 'mpv',
     transmission: 'automatic',
     engineType: 'gasoline',
     passenger: 7,
@@ -13,6 +14,7 @@ export const cars: Car[] = [
   {
     id: 'car-002',
     name: 'Avanza New',
+    bodytype: 'mpv',
     transmission: 'automatic',
     engineType: 'gasoline',
     passenger: 7,
@@ -22,6 +24,7 @@ export const cars: Car[] = [
   {
     id: 'car-003',
     name: 'Innova Reborn Facelift',
+    bodytype: 'mpv',
     transmission: 'automatic',
     engineType: 'gasoline',
     passenger: 7,
@@ -31,6 +34,7 @@ export const cars: Car[] = [
   {
     id: 'car-004',
     name: 'Innova Zenix G',
+    bodytype: 'mpv',
     transmission: 'automatic',
     engineType: 'hybrid',
     passenger: 7,
@@ -40,6 +44,7 @@ export const cars: Car[] = [
   {
     id: 'car-005',
     name: 'Innova Zenix Q',
+    bodytype: 'mpv',
     transmission: 'automatic',
     engineType: 'hybrid',
     passenger: 7,
@@ -49,6 +54,7 @@ export const cars: Car[] = [
   {
     id: 'car-006',
     name: 'Fortuner GR',
+    bodytype: 'suv',
     transmission: 'automatic',
     engineType: 'gasoline',
     passenger: 7,
@@ -58,6 +64,7 @@ export const cars: Car[] = [
   {
     id: 'car-007',
     name: 'Pajero',
+    bodytype: 'suv',
     transmission: 'automatic',
     engineType: 'gasoline',
     passenger: 7,
@@ -67,6 +74,7 @@ export const cars: Car[] = [
   {
     id: 'car-008',
     name: 'Alphard Gen 3 Facelift',
+    bodytype: 'luxury',
     transmission: 'automatic',
     engineType: 'gasoline',
     passenger: 7,
@@ -76,6 +84,7 @@ export const cars: Car[] = [
   {
     id: 'car-009',
     name: 'Alphard New Gen 4',
+    bodytype: 'luxury',
     transmission: 'automatic',
     engineType: 'hybrid',
     passenger: 7,
@@ -85,6 +94,7 @@ export const cars: Car[] = [
   {
     id: 'car-010',
     name: 'Hiace Commuter',
+    bodytype: 'minibus',
     transmission: 'manual',
     engineType: 'gasoline',
     passenger: 14,
@@ -94,6 +104,7 @@ export const cars: Car[] = [
   {
     id: 'car-011',
     name: 'Hiace Premio',
+    bodytype: 'minibus',
     transmission: 'manual',
     engineType: 'gasoline',
     passenger: 10,
@@ -103,6 +114,7 @@ export const cars: Car[] = [
   {
     id: 'car-012',
     name: 'Hiace Premio Standard',
+    bodytype: 'minibus',
     transmission: 'manual',
     engineType: 'gasoline',
     passenger: 10,
@@ -112,6 +124,7 @@ export const cars: Car[] = [
   {
     id: 'car-013',
     name: 'Hiace Premio Luxury',
+    bodytype: 'minibus',
     transmission: 'automatic',
     engineType: 'gasoline',
     passenger: 8,
@@ -121,6 +134,7 @@ export const cars: Car[] = [
   {
     id: 'car-014',
     name: 'Bus Medium',
+    bodytype: 'minibus',
     transmission: 'manual',
     engineType: 'gasoline',
     passenger: 33,

@@ -8,6 +8,11 @@
   scroll-behavior: smooth;
 }
 
+main,
+footer {
+  margin-top: 4rem;
+}
+
 @theme {
   --color-bluescr-50: #ebf3ff;
   --color-bluescr-100: #79afff;
