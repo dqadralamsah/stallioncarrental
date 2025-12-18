@@ -9,7 +9,7 @@ const menuLinks = [
   { href: '/', label: 'Home' },
   { href: '/About', label: 'About Us' },
   { href: '/Cars', label: 'Cars' },
-  { href: '/Article', label: 'Articles' },
+  { href: '/Articles', label: 'Articles' },
   { href: '/Contact', label: 'Contact Us' },
   { href: '/FAQ', label: 'FAQs' },
 ];
