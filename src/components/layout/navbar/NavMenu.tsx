@@ -11,7 +11,7 @@ const menuLinks = [
   { href: '/Cars', label: 'Cars' },
   { href: '/Articles', label: 'Articles' },
   { href: '/Contact', label: 'Contact Us' },
-  { href: '/FAQ', label: 'FAQs' },
+  { href: '/Faqs', label: 'FAQs' },
 ];
 
 export default function NavMenu({ isOpen }: { isOpen: boolean }) {
